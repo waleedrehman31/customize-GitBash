@@ -2,6 +2,22 @@
 
 The git bash costumize code and file for window.
 
+## Steps
+
+### 1. Goto Root Directory
+
+Go to root folder by using terminal.
+
+### 2. Create .bashrc
+
+Create file called `.bashrc` by using vim try this`vi .bashrc` OR if you are use VScode try this `code .bachrc`.
+
+### 3. Write the following code.
+
+Copy the given code and past in the `.bashrc` file save and close it.
+
+#### **CODE**
+
 ```
 PS1='\[\033]0;TITTLE$PWD\007\]' # set window title
 #My aliases
@@ -78,3 +94,7 @@ export GIT_PS1_SHOWUPSTREAM="auto"
 
 
 ```
+
+Now your GIT BASH customized.
+
+> Note: `#` is comment.
